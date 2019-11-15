@@ -4,17 +4,13 @@
 
 /* small tablets to 768 pixels */
 @media only screen and (min-width: 600px) {
-  html {
-  font-size: 80%;
-  }
-
   .main__container {
     height: 97.5%;
     width: 90%;
   }
 
   .main__view {
-    width: 75%;
+    width: 70%;
   }
 
   .gym__view-info-container {
@@ -41,6 +37,14 @@
   .login__card-username {
     font-size: 2.2rem;
   }
+
+  .main__search-field {
+  width: 60%;
+  }
+
+  .main__search-field:focus {
+  width: 80%;
+  }
 }
 
 /**************************************
@@ -49,9 +53,6 @@
 
 /* big tablets to 1024 pixels */
 @media only screen and (min-width: 801px) {
-  html {
-  font-size: 70%;
-  }
 
   .main__container {
     height: 97.5%;
@@ -59,7 +60,7 @@
   }
 
   .main__view {
-    width: 70%;
+    width: 50%;
   }
 
   .gym__view-info-container {
@@ -79,17 +80,6 @@
   font-size: 4rem;
   }
 
-  .map__button,
-  .profile__button,
-  .gym__button,
-  .buddy__button,
-  .upload__button,
-  .icon__container {
-    height: 3.8rem;
-    width: 10rem;
-    font-size: 2rem;
-  }
-
   .login__card-input {
     font-size: 2rem;
   }
@@ -104,24 +94,41 @@
 **************************************/
 
 /* laptops/desktop */
-@media only screen and (min-width: 1026px) {
+@media only screen and (min-width: 1025px) {
   html {
     font-size: 60%;
   }
 
   .main__container {
-    width: 50%;
+    width: 60%;
   }
 
   .main__view {
-    width: 65%;
+    width: 50%;
   }
 
-  .main__body {
-    height: 90rem;
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .main__container {
+    width: 50%;
   }
-/*
-  .profile__container {
-    height: 90rem;
-  } */
+
+}
+
+/**************************************
+        MOBILE LANDSCAPE
+**************************************/
+
+@media only screen
+and (max-width: 823px)
+and (max-height: 414px)
+and (orientation: landscape) {
+  html {
+    font-size: 4px;
+  }
+  .main__container {
+    width: 60%;
+  }
 }
