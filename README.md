@@ -1,4 +1,5 @@
-# GymBuddy
+# GymBuddy 
+(In Progress)
 
 A full-stack mobile-first LAMP application with full CRUD functionality that allow users to look for the right gym for them and connect with other users.
 
@@ -11,6 +12,7 @@ A full-stack mobile-first LAMP application with full CRUD functionality that all
 5. PHP
 6. MySQL
 7. Google API
+8. AWS EC2
 
 ## Live Demo
 
@@ -35,3 +37,38 @@ Try the application live at https://gym-buddy.aarondomingo.com
 ## Preview
 
 ![](/server/public/demo/gym-buddy.gif)
+
+## Development
+
+#### System Requirements
+
+- NPM 6 or higher
+- MySQL 7 or higher
+- Google API Key
+
+#### Getting Started
+
+1. Clone the repository.
+
+    ```shell
+    git clone https://github.com/aaronmdomingo/gym-buddy.git
+    cd gym-buddy
+    ```
+
+1. Install all dependencies with NPM.
+
+    ```shell
+    npm install
+    ```
+
+1. Import the database to MySQL
+
+    ```shell
+    database/gym-buddy.sql
+    ```
+
+1. Start the project. Once started you can view the application by opening http://localhost:3000 in your browser.
+
+    ```shell
+    npm run dev
+    ```
